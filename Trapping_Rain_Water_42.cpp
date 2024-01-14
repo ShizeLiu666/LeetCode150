@@ -6,6 +6,8 @@
 
 using namespace std;
 
+// source of the idea: https://www.bilibili.com/video/BV16N411776L/?spm_id_from=333.337.search-card.all.click&vd_source=177d972c6cb6025c46f53987677a0d43
+
 int trap(vector<int>& height)
 {
     int size = height.size();
@@ -17,11 +19,11 @@ int trap(vector<int>& height)
         // While the current stack is not empty and the height of the current element is greater than the height of the top element of the stack
         while(stack.empty() == false && height[i] > height[stack.top()])
         {
-            int prev_index = stack.top();
+            int prev_index = stack.top(); // point to the height of the top element in the stack
             stack.pop();
-            if(stack.empty() == true) break;
+            if(stack.empty() == true) break; 
             
-            int left_index =  stack.top();
+            int left_index =  stack.top(); // point to the height of the element to the left of the top element in the stack
             int width_val = i - left_index - 1;
             int height_val = min(height[i], height[left_index]) - height[prev_index];
             ans += width_val * height_val;
