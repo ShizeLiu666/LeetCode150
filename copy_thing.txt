@@ -1,0 +1,12 @@
+#include <iostream>
+#include <vector>
+#include <stack>
+#include <unordered_map>
+#include <algorithm>
+
+int main()
+{
+
+}
+
+g++ -std=c++11 [filename].cpp -o filename
