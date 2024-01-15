@@ -1,12 +1,24 @@
+1. Code Format 
+
 #include <iostream>
 #include <vector>
 #include <stack>
 #include <unordered_map>
 #include <algorithm>
 
+using namespace std;
+
 int main()
 {
 
 }
 
+2. Compilation filenameormat
+
 g++ -std=c++11 [filename].cpp -o filename
+
+3. Github Format
+    0. git status
+    1. git add . 
+    2. git commit -m ''
+    3. git push
