@@ -22,3 +22,7 @@ g++ -std=c++11 [filename].cpp -o filename
     1. git add . 
     2. git commit -m ''
     3. git push
+
+4. Notes
+- 单调栈运用场景：当我们去求一个元素，右边或者左边第一个比它大/小的元素
+    - 单调栈逻辑一共三种情况，遍历当前元素 >, ==, < 栈口元素
