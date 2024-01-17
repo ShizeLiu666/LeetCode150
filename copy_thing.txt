@@ -1,6 +1,7 @@
 1. Code Format 
 
 #include <iostream>
+#include <string>
 #include <vector>
 #include <stack>
 #include <unordered_map>
