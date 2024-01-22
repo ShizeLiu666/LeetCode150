@@ -24,6 +24,8 @@ g++ [filename].cpp -o [filename] -std=c++17 && ./[filename]
     1. git add . 
     2. git commit -m ''
     3. git push
+    
+    git add . && git commit -m 'update' && git push
 
 4. Notes
 - 单调栈运用场景：当我们去求一个元素，右边或者左边第一个比它大/小的元素
