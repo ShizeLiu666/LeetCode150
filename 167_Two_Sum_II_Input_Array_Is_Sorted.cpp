@@ -40,7 +40,6 @@ vector<int> twoSum(vector<int>& numbers, int target)
     }
     
     // cout << p1 + 1 << " " << p2 + 1 << " " << endl;
-
     vector<int> pointers = {p1 + 1, p2 + 1};
     return pointers;
 }
