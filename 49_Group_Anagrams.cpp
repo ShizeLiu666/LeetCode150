@@ -67,8 +67,8 @@ int main()
 {
     vector<string>strs1 = {"eat","tea","tan","ate","nat","bat"};
     vector<vector<string>>output1 = groupAnagrams(strs1);
-    vector<string>strs2 = {""};
-    vector<vector<string>>output2 = groupAnagrams(strs2);
-    vector<string>strs3 = {"a"};
-    vector<vector<string>>output2 = groupAnagrams(strs3);
+    // vector<string>strs2 = {""};
+    // vector<vector<string>>output2 = groupAnagrams(strs2);
+    // vector<string>strs3 = {"a"};
+    // vector<vector<string>>output2 = groupAnagrams(strs3);
 }
